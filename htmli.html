@@ -1,0 +1,267 @@
+<!doctype>
+<html>
+    <head>  <link rel="stylesheet" href="js.css">
+        <title>Bank Account Registration Form</title>
+          <style>
+            a:hover{
+              text-decoration:underline;
+              color:white;
+          }
+            .tac
+            {
+                color:green;
+            }
+             .img1
+             {
+                float:left;
+             }
+             .img23
+             {
+              float:right;
+             }
+             .clearfix
+             {
+               overflow:auto;
+             }
+             .address
+             {
+               text-align:right;
+             }
+             .clearfix
+             {
+               overflow:auto;
+             }
+             a:hover{
+              text-decoration:underline;
+                color:white;}
+             
+            .flex-container > div
+            {
+                background-color:rgb(202, 88, 78);
+                width:350px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                padding:10px 45px;
+            }
+            .star
+            {
+              color:rgba(12, 205, 47, 0.815);
+            }
+            body
+            {
+              cursor:crosshair;
+            }
+            .h
+            {
+              font-size:28px;;
+            }
+            .f
+            {
+              font-size:20px;
+            }
+            body
+            {
+              background-color: rgb(130, 212, 63);
+            }
+          
+          </style>
+    </head>
+</html>
+<body> 
+  <center><h1>WORLD BANK</h1></center> 
+
+    
+    <br>  
+    
+
+ <div class="cldearfix">
+     <center><img class="img1" src="21.jpeg" width="200px" height="200px" alt="image"><center><img class="img1" src="21.jpeg" width="200px" height="200px" alt="image"><center><img class="img21" src="22.jpeg" width="200px" height="200px" alt="image"><b class="shade" style="font-size:45px">ALL OVER THE WORLD</b><center>
+     </div><p class="address"><b>ALL OVER THE WORLD</b><br></center>
+        104A,south street,<br>606 202<br>
+        madhiarasan.com<br>
+        paksan.com<br>
+        9659369234<br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur a asperiores veritatis iusto obcaecati aut veniam, dolorum totam voluptates porro laborum beatae aliquam, dolor, ex nemo? Quis officiis ut error deleniti, velit maiores amet sapiente atque architecto. Mollitia, veniam quis sequi reprehenderit blanditiis, vero perferendis expedita assumenda architecto ipsa vitae.</p>
+                <h1>REGISTRATION ON BANK APPLICATION</h1>
+    <div class="reg form">
+      <form>
+        <fieldset>
+          
+            <h2 style="font-size:35px;">Account Information</h2><br>
+    
+            <div class="align">
+            <p style="font-size:25px;">Account Type</p> 
+            <select name="Account type" id="Account type">
+            <option value="MMA"><p class="ai">A Money Market Account</p></option>
+            <option value="CA"><p class="ai">Checking Account</p></option>
+            <option value="SA"><p class="ai">Saving Account</p></option>
+            <option value="IRA"><p class="ai">IRA Account</p></option>
+            <option value="DD"><p class="ai">Demand Draft</p></option>
+            </select>
+            
+            <p style="font-size:25px;">Account Type</p> 
+            <select name="Currency type" id="Currency type">
+            <option value="MMA"><p class="ai">USD</p></option>
+            <option value="CA"><p class="ai">EUR</p></option>
+            <option value="SA"><p class="ai">GBP</p></option>
+            <option value="IRA"><p class="ai">CAD</p></option>
+            <option value="DD"><p class="ai">KWD</p></option>
+            </select></div>
+
+
+    
+        <br><br>
+
+        <p class="h" style="color:indigo">Personal information</p>
+
+         
+
+         <p style="font-size:25px;"><b>Name</b></p>
+
+        <div class="name> 
+                <p> name</p>
+         <input type="text" name="First name" required placeholder="please enter....." size="30px" >
+        
+         <p>your name</p>
+         <input type="text" name="Last Name" placeholder="please enter....." size="30px">
+         <p style="font-size:24px;"><b>Gender</b></p>
+         <input type="radio" gender="m">m
+         <input type="radio" gender="f">f
+        </div><br>
+        <div class="date">
+         <p style="font-size:25px;">Phone Number</p>
+         <input type="number" name="number" size="50px" placeholder="(000) 000-000" required>
+         <p style="font-size:25px;">Date Of Birth</p>
+         <input type="date" name="DOB" required ></div>
+         
+         <br><br>
+         <p style="font-size:25px;"> Address</p>
+         
+         <textarea id="address" name="address"></textarea><br>street address line <br><br><br><br><br>
+         
+        <div class="city">
+         &nbsp;&nbsp;&nbsp;City / town<input type="text" name="city" size="50px" required>
+         State/province<input type="text" name="state" size="50px" required>
+        </div>
+        <br><br><br>
+        <div class="post">
+         Postal/Zip <input type="text" name="picode" required size="50px">
+         Country<input type="text" name="country" required size="50px"></div><br><br><br>
+ 
+         <p style="font-size:25px;">Marital Status</p>
+         <select name="Marital Status" id="Currency type">
+            <option value="MMA">Married</option>
+            <option value="CA">Single</option>
+            <option value="SA">Divorced</option>
+            <option value="IRA">widowed</option>
+            <option value="sep">Separate</option>
+         </select>  
+         
+         <br><br>
+         
+         <div class="marital">
+        <p style="font-size:25px;">Occupation</p>
+        <input type="text" name="Occupation" required size="50px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        
+         </div>
+<br><br>
+       
+      
+</fieldset>
+
+  </form> 
+  
+
+</div>      
+<div class="container">
+  <center><h1>Register for an Online Bank Account</h1></center>
+  <form id="registrationForm" onsubmit="return validateRegistrationForm()">
+      <input type="text" id="fullName" placeholder="Full Name" required><br><br>
+      <input type="date" id="dob" required><br><br>
+      <input type="text" id="address" placeholder="Address" required><br><br>
+      <input type="tel" id="mobileNumber" placeholder="Mobile Number" required><br><br>
+      <input type="text" id="pinCode" placeholder="PIN Code" required><br><br>
+      <input type="text" id="fatherName" placeholder="Father's Name" required><br><br>
+     
+      <label for="accountType">Select Account Type:</label>
+      <select id="accountType" required>
+          <option value="savings">Savings Account</option>
+          <option value="checking">Checking Account</option>
+          <option value="business">Business Account</option>
+      </select><br><br>
+     
+      <input type="text" id="username" placeholder="Username" required><br><br>
+      <input type="password" id="password" placeholder="Password" required><br><br>
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+      <button type="submit">Register</button><br><br>
+  </form>
+
+  <div class="dashboard" id="dashboard">
+      <!-- ... (Dashboard content remains the same) ... -->
+  </div>
+</div>
+
+<script>
+  function validateRegistrationForm() {
+      const fullName = document.getElementById("fullName").value;
+      const dob = document.getElementById("dob").value;
+      const address = document.getElementById("address").value;
+      const mobileNumber = document.getElementById("mobileNumber").value;
+      const pinCode = document.getElementById("pinCode").value;
+      const fatherName = document.getElementById("fatherName").value;
+      const accountType = document.getElementById("accountType").value;
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmPassword").value;
+
+      // Regular expressions for validation
+      const namePattern = /^[A-Za-z\s]+$/; // Allows only alphabets and spaces
+      const mobilePattern = /^\d{10}$/;   // 10-digit mobile number
+      const pinCodePattern = /^\d{6}$/;    // 6-digit PIN code
+      const passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/; // Password with at least one digit, one lowercase and one uppercase letter, and 8 or more characters
+
+      if (!fullName || !dob || !address || !mobileNumber || !pinCode || !fatherName || !accountType || !username || !password || !confirmPassword) {
+          alert("All fields are required for registration.");
+          return false;
+      }
+
+      if (!namePattern.test(fullName)) {
+          alert("Full Name should contain only alphabets and spaces.");
+          return false;
+      }
+
+      if (!mobilePattern.test(mobileNumber)) {
+          alert("Mobile Number should be a 10-digit number.");
+          return false;
+      }
+
+      if (!pinCodePattern.test(pinCode)) {
+          alert("PIN Code should be a 6-digit number.");
+          return false;
+      }
+
+      if (!passwordPattern.test(password)) {
+          alert("Password must have at least one digit, one lowercase and one uppercase letter, and be 8 or more characters.");
+          return false;
+      }
+
+      if (password !== confirmPassword) {
+          alert("Password and Confirm Password do not match.");
+          return false;
+      }
+
+      // Additional validation can be added here if needed
+
+      return true;
+  }
+</script>  <center><h2><i>*ALL THE BEST*</i></h2></center>
+<center><h2><i>you are welcome</i></h2></center>
+
+        <h3><center><button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </center></h3>
+
+     
+
+</body></html>
